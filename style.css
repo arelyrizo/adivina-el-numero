@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: #FFF5C2;
+    color: black;
+  
+  }
+  
+  h1 {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #3081D0;
+    color: #D6EFD8;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #mensaje {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+#img1{
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Añade transiciones suaves */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Añade una sombra sutil */
+}
+
+  
+#img2{
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Añade transiciones suaves */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Añade una sombra sutil */
+  
+}
+img1, img2:hover {
+  transform: scale(1.05); /* Hace un ligero zoom en la imagen */
+  box-shadow: 0 8px 16px rgba(0.5, 0.5, 0.5, 0.5); /* Aumenta la sombra */
+}
